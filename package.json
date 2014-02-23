@@ -1,6 +1,6 @@
 {
   "author": "Thomas Deconinck",
-  "name": "autocompile",
+  "name": "ppcompilation",
   "description": "Autocompile your coffeescript & sass files",
   "version": "0.1.1",
   "repository": {
@@ -8,7 +8,7 @@
   },
   "main": "./lib/gulpfile",
   "bin": {
-    "autocompile": "./bin/compile"
+    "ppcompilation": "./bin/ppcompilation"
   },
   "dependencies": {
     "gulp": "*",
@@ -25,7 +25,7 @@
     "node": "0.10.12"
   },
   "scripts": {
-    "test": "compile"
+    "test": "ppcompilation"
   },
   "keywords": [
     "sass",

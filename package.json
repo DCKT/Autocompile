@@ -1,14 +1,14 @@
 {
   "author": "Thomas Deconinck",
-  "name": "Autocompile",
+  "name": "autocompile",
   "description": "Autocompile your coffeescript & sass files",
   "version": "0.1.1",
   "repository": {
-    "url": ""
+    "url": "https://github.com/DCKT/Autocompile"
   },
   "main": "./lib/gulpfile",
   "bin": {
-    "compile": "./bin/compile"
+    "autocompile": "./bin/compile"
   },
   "dependencies": {
     "gulp": "*",
@@ -17,7 +17,7 @@
     "gulp-coffee": "*",
     "gulp-util": "*",
     "gulp-uglify": "*",
-    "gulp-plumber"
+    "gulp-plumber": "*"
   },
   "devDependencies": {},
   "optionalDependencies": {},
